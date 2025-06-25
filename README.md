@@ -128,7 +128,6 @@ Must be changed to the folowing lines:
 segmented_data_all = segmented_data_1 + segmented_data_2 + segmented_data_3 + segmented_data_5
 
 labels = ['purseseines', 'fixedgear', 'drift', 'trawler']
----
 
 ## Final Notes
 
@@ -136,3 +135,5 @@ labels = ['purseseines', 'fixedgear', 'drift', 'trawler']
 - Before running any scripts, make sure to download the datasets from the official GFW website:
 
   📥 [Global Fishing Watch – Public Training Dataset](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1)
+
+---
