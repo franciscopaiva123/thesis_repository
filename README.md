@@ -129,11 +129,12 @@ segmented_data_all = segmented_data_1 + segmented_data_2 + segmented_data_3 + se
 
 labels = ['purseseines', 'fixedgear', 'drift', 'trawler']
 
-## Final Notes
+## 📝 Final Notes
 
-- Each training script takes approximately **10–15 minutes** to run.
-- Before running any scripts, make sure to download the datasets from the official GFW website:
+- ⏱️ **Training Time**: Each model training script takes approximately **10–15 minutes** to complete.
+- 📂 **Dataset Requirement**: Before running any training or evaluation scripts, ensure you've downloaded the datasets from the official GFW website:
 
-  📥 [Global Fishing Watch – Public Training Dataset](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1)
+  🌐 [Global Fishing Watch – Public Training Dataset](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1)
 
----
+> ⚠️ Make sure that the preprocessing and dataset paths are properly configured before starting any training or testing scripts.
+
