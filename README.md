@@ -68,6 +68,7 @@ print("Segmented data 4:", len(segmented_data_4)) # to evaluate the models comme
 And these lines: 
 
 segmented_data_all = segmented_data_1 + segmented_data_2 + segmented_data_3 + segmented_data_4 + segmented_data_5 - line 531
+
 labels = ['purseseines', 'fixedgear', 'drift', 'trawler','troller'] - line 553
 
 Must be changed to the folowing lines:
@@ -82,7 +83,7 @@ Final Note:
 
 All the model training files take around 10-15 minutes to run.
 
-Before running the python files the Datasets must be downloaded from the following the GFW website: [a link](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1) 
+Before running the python files the Datasets must be downloaded from the following the GFW website: [GFW Dataset](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1) 
 
 A free account must be setup. The name of the dataset is "Anonymized AIS training data".
 
