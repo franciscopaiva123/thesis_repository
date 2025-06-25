@@ -82,7 +82,7 @@ Final Note:
 
 All the model training files take around 10-15 minutes to run.
 
-Before running the python files the Datasets must be downloaded from the following the GFW website: https://globalfishingwatch.org/data-download/datasets/public-training-data-v1 
+Before running the python files the Datasets must be downloaded from the following the GFW website: [a link](https://globalfishingwatch.org/data-download/datasets/public-training-data-v1) 
 
 A free account must be setup. The name of the dataset is "Anonymized AIS training data".
 
