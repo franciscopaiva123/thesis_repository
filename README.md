@@ -116,18 +116,22 @@ print("Normalized data 4", len(dataset_normalized_4))
 
 segmented_data_4 = segment_vessel_data(dataset_normalized_4, label="troller")
 print("Segmented data 4:", len(segmented_data_4))
+```
 
 And these lines: 
 
+```python
 segmented_data_all = segmented_data_1 + segmented_data_2 + segmented_data_3 + segmented_data_4 + segmented_data_5 - line 531
 
 labels = ['purseseines', 'fixedgear', 'drift', 'trawler','troller'] - line 553
-
+```
 Must be changed to the folowing lines:
-
+```python
 segmented_data_all = segmented_data_1 + segmented_data_2 + segmented_data_3 + segmented_data_5
 
 labels = ['purseseines', 'fixedgear', 'drift', 'trawler']
+```
+---
 
 ## 📝 Final Notes
 
